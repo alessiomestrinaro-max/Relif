@@ -1,0 +1,7 @@
+[build]
+  functions = "functions"
+
+[[redirects]]
+  from = "/api/create-loan"
+  to = "/.netlify/functions/create-loan"
+  status = 200
