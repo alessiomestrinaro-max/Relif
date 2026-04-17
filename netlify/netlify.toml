@@ -1,6 +1,6 @@
 [build]
-  publish = "netlify"
-  functions = "netlify/functions"
+  publish = "."
+  functions = "functions"
 
 [[redirects]]
   from = "/api/create-loan"
