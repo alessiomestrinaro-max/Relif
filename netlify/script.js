@@ -60,7 +60,7 @@ if (loanForm && successMessage && errorMessage) {
     const payload = Object.fromEntries(formData.entries());
 
     try {
-      const response = await fetch("/api/create-loan", {
+      const response = await fetch("/.netlify/functions/create-loan", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
